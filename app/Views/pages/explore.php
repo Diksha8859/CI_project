@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         <script src="/js/bootstrap.js"></script>
         <style>
@@ -36,20 +37,20 @@ a{
                   <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav justify-content-center">
                     <li class="nav-item">
-                      <a class="nav-link" href="file:///C:/Users/hp/Desktop/myproject.html">Home</a>
+                      <a class="nav-link" href="<?php echo base_url(); ?>/index.php/myproject/">Home</a>
                     </li>
                   
                    <li class="nav-item">
-                      <a class="nav-link" href="file:///C:/Users/hp/Desktop/Historical%20places.html">Hystorical Places</a>
+                      <a class="nav-link" href="<?php echo base_url(); ?>/index.php/historical_places/">Hystorical Places</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="file:///C:/Users/hp/Desktop/CULTURE.html">Culture</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/culture/">Culture</a>
                       </li>
                       <li class="nav-item">
-                        <a  class="nav-link"href="file:///C:/Users/hp/Desktop/booking.html"> Booking</a>
+                        <a  class="nav-link"href="<?php echo base_url(); ?>/index.php/booking/"> Booking</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="file:///C:/Users/hp/Desktop/page.html"> Logout</a>
+                        <a class="nav-link" href="<?php echo base_url(); ?>/index.php/signin/"> Logout</a>
                       </li>
                   
                   </ul>
@@ -67,38 +68,38 @@ a{
             <div class="row">
             <div class="col-sm-3 bg-info text-white p-3">
                 <img class="img-fluid" src="https://www.holidify.com/images/bgImages/LADAKH.jpg">
-                <a href="">Leh ladakh</a>
+                <a href="<?php echo base_url(); ?>/index.php/booking/">Leh ladakh</a>
                 </div>
                 <div class="col-sm-3 bg-info text-white p-3">
                     <img class="img-fluid" src="https://www.holidify.com/images/bgImages/ANDAMAN-NICOBAR-ISLANDS.jpg">
-                    <a href="">Andaman</a>
+                    <a href="<?php echo base_url(); ?>/index.php/booking/">Andaman</a>
                     </div>
                     <div class="col-sm-3 bg-info text-white p-3">
                         <img class="img-fluid" src="https://www.holidify.com/images/bgImages/RISHIKESH.jpg">
-                        <a href="">Rishikesh</a>
+                        <a href="<?php echo base_url(); ?>/index.php/booking/">Rishikesh</a>
                         </div>
                         <div class="col-sm-3 bg-info text-white p-3">
                             <img class="img-fluid" src="https://www.holidify.com/images/bgImages/SRINAGAR.jpg">
-                            <a href="">Sri Nagar</a>
+                            <a href="<?php echo base_url(); ?>/index.php/booking/">Sri Nagar</a>
                             </div>
                             </div>
             </div>
             <div class="row">
                 <div class="col-sm-3 bg-info text-white p-3">
                     <img class="img-fluid" src="https://www.holidify.com/images/bgImages/GOKARNA.jpg">
-                    <a href="">Goa</a>
+                    <a href="<?php echo base_url(); ?>/index.php/booking/">Goa</a>
                     </div>
                     <div class="col-sm-3 bg-info text-white p-3">
                         <img class="img-fluid" src="https://www.holidify.com/images/bgImages/HARIDWAR.jpg">
-                        <a href="">Haridwar</a>
+                        <a href="<?php echo base_url(); ?>/index.php/booking/">Haridwar</a>
                         </div>
                         <div class="col-sm-3 bg-info text-white p-3">
                             <img class="img-fluid" src="https://www.holidify.com/images/bgImages/MANALI.jpg">
-                            <a href="">Manali</a>
+                            <a href="<?php echo base_url(); ?>/index.php/booking/">Manali</a>
                             </div>
                             <div class="col-sm-3 bg-info text-white p-3">
                                 <img class="img-fluid" src="https://www.holidify.com/images/bgImages/KODAIKANAL.jpg">
-                                <a href="">kodaikanal</a>
+                                <a href="<?php echo base_url(); ?>/index.php/booking/">kodaikanal</a>
                                 </div>
                                 </div>
                 </div>

@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Charm&display=swap" rel="stylesheet">
-        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
         <link href="css/bootstrap-responsive.css" rel="stylesheet">
         <script src="/js/bootstrap.js"></script>
         <style>
@@ -55,20 +56,20 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav justify-content-center">
             <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/hp/Desktop/myproject.html">Home</a>
+              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/myproject/">Home</a>
             </li>
           
            <li class="nav-item">
-              <a class="nav-link" href="file:///C:/Users/hp/Desktop/Historical%20places.html">Hystorical Places</a>
+              <a class="nav-link" href="<?php echo base_url(); ?>/index.php/historical_places/">Hystorical Places</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="file:///C:/Users/hp/Desktop/CULTURE.html">Culture</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/culture/">Culture</a>
               </li>
               <li class="nav-item">
-                <a  class="nav-link"href="file:///C:/Users/hp/Desktop/booking.html"> Booking</a>
+                <a  class="nav-link"href="<?php echo base_url(); ?>/index.php/booking/"> Booking</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="file:///C:/Users/hp/Desktop/page.html"> Logout</a>
+                <a class="nav-link" href="<?php echo base_url(); ?>/index.php/signup/"> Logout</a>
               </li>
        
         </ul>

@@ -6,6 +6,7 @@ class Pages extends BaseController
 {
     public function index()
     {
+     
         return view('welcome_message');
     }
 
@@ -24,4 +25,6 @@ class Pages extends BaseController
         . view('templates/footer');
     }
     
+          
+ 
 }
